@@ -1,5 +1,7 @@
+<?php 
+
 // REQUİRE
-require 'lib/class.youtube.php';
+require 'class.youtube.php';
 
 // SINIF BAŞLATMA
 $youtube = new YoutubeSearch();
