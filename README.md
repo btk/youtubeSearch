@@ -30,16 +30,16 @@ Sayfamıza `class.youtube.php`'ı dahil ettikten sonra sınıfımızı çalışt
 
 	foreach ($data as $item) {
 		// ÖRNEK GÖSTERİM
-		echo $i."-> ".$item->title."<br>";
+		echo "-> ".$item->title."<br>";
 
 	}
     
     ## Video Search
-	$data = $youtube->getVideoSearch("Rihanna - Diamonds",10);
+	$data = $youtube->getVideoSearch("Rihanna - Diamonds",10); // Anahtar Kelime , Limit (max 50)
 
 	foreach ($data as $item) {
 		
-		echo $i."-> ".$item->title."<br>";
+		echo "-> ".$item->title."<br>";
 
 	}
 
