@@ -34,11 +34,11 @@ Sayfamıza `class.youtube.php`'ı dahil ettikten sonra sınıfımızı çalışt
 
 	}
     
-    ## Video Search
+    ## VIDEO ARAMA
 	$data = $youtube->getVideoSearch("Rihanna - Diamonds",10); // Anahtar Kelime , Limit (max 50)
-
+	
 	foreach ($data as $item) {
-		
+		// ÖRNEK GÖSTERİM
 		echo "-> ".$item->title."<br>";
 
 	}
