@@ -26,10 +26,19 @@ Sayfamıza `class.youtube.php`'ı dahil ettikten sonra sınıfımızı çalışt
 	$youtube = new YoutubeSearch();
 
 	## PLAYLIST ARAMA
-	$data = $youtube->getPlaylistSearch("Keywords",10); // Anahtar Kelime , Limit (max 50)
+	$data = $youtube->getPlaylistSearch("Eminem",10); // Anahtar Kelime , Limit (max 50)
 
 	foreach ($data as $item) {
 		// ÖRNEK GÖSTERİM
+		echo $i."-> ".$item->title."<br>";
+
+	}
+    
+    ## Video Search
+	$data = $youtube->getVideoSearch("Rihanna - Diamonds",10);
+
+	foreach ($data as $item) {
+		
 		echo $i."-> ".$item->title."<br>";
 
 	}
