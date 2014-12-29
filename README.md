@@ -1,18 +1,20 @@
-youtubeSearch
+## youtubeSearch
 =============
 
-Bu class sayesinde YoutubeAPİ v2 ile aramalarınızı kolayca yapabilirsiniz..
+Bu class sayesinde **YoutubeAPİ v2** ile aramalarınızı kolayca yapabilirsiniz..
 
-Neleri arayabilirim?
+### Neleri arayabilirim?
 =============
 
--> Video
--> Playlist
--> Channel
--> Single Video
--> Populer Video ( Populer Video in Country )
--> Category
--> more..
+1. Video
+2. Playlist
+3. Channel
+4. Single Video
+5. Populer Video ( Populer Video in Country )
+6. Category
+7. more..
+
+
 
 Nasıl Çalışır ?
 =============
