@@ -19,7 +19,7 @@ class YoutubeSearch
 	
 	private  $getPlaylist 	= "https://gdata.youtube.com/feeds/api/playlists/snippets";
 
-	private  $getVideo	  	= "https://gdata.youtube.com/feeds/api/videos";
+	private  $getVideo	= "https://gdata.youtube.com/feeds/api/videos";
 
 	private  $getVideos   	= "https://gdata.youtube.com/feeds/api/videos";
 
@@ -27,11 +27,11 @@ class YoutubeSearch
 
 	private  $getChannel	= "https://gdata.youtube.com/feeds/api/channels";
 
-	private  $version	  	= "2";
+	private  $version  	= "2";
 
-	private  $type	  	  	= "jsonc";
+	private  $type	   	= "jsonc";
 
-	private  $pageUp		= 10;
+	private  $pageUp	= 10;
 
 	function __construct()
 	{
