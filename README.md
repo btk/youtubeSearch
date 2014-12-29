@@ -19,7 +19,7 @@ Nasıl Çalışır ?
 Sayfamıza `class.youtube.php`'ı dahil ettikten sonra sınıfımızı çalıştıralım.
 
     // REQUİRE
-	require 'class.youtube.php';
+	require 'class.YoutubeSearch.php';
 	
     // SINIF BAŞLATMA
 	$youtube = new YoutubeSearch();
