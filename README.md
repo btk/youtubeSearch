@@ -10,7 +10,6 @@
 3. Channel
 4. Single Video
 5. Populer Video ( Populer Video in Country )
-6. Category
 7. more..
 
 
