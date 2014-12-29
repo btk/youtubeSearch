@@ -20,4 +20,25 @@ Nasıl Çalışır ?
 Sayfamıza `class.youtube.php`'ı dahil ettikten sonra sınıfımızı çalıştıralım.
 
  `$youtube = new YoutubeSearch();`
+ 
+ EXAMPLE
+ 
+ Playlist Search
+ 
+ <?php 
+
+	require 'lib/class.youtube.php';
+
+	$youtube = new YoutubeSearch();
+
+
+	## Playlist Search
+	$data = $youtube->getPlaylistSearch("Keywords",10);
+
+	foreach ($data as $item) {
+		
+		echo $i."-> ".$item->title."<br>";
+
+	}
+
 
