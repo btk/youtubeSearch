@@ -6,7 +6,6 @@ Bu class sayesinde **YoutubeAPİ v2** ile aramalarınızı kolayca yapabilirsini
 
 ### Neleri arayabilirim?
 =============
-
 1. Video
 2. Playlist
 3. Channel
