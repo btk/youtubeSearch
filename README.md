@@ -27,7 +27,8 @@ Sayfamıza `class.youtube.php`'ı dahil ettikten sonra sınıfımızı çalışt
  
 
 	<?php 
-	require 'lib/class.youtube.php';
+    	// REQUİRE
+		require 'lib/class.youtube.php';
 
 	$youtube = new YoutubeSearch();
 
