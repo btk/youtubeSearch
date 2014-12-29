@@ -1,7 +1,6 @@
 ![](http://i.imgur.com/G0KQC7w.png)
 ## Youtube Search
-=============
->Bu class sayesinde **YoutubeAPİ v2** ile aramalarınızı kolayca yapabilirsiniz..
+> Bu class sayesinde **YoutubeAPİ v2** ile aramalarınızı kolayca yapabilirsiniz..
 
 
 ### Neleri arayabilirim?
