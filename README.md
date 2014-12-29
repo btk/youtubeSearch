@@ -48,5 +48,11 @@ Sayfamıza `class.youtube.php`'ı dahil ettikten sonra sınıfımızı çalışt
 
 	// Json Çıktısı
 	var_dump($data);
+    
+    ## VİDEO BİLGİLERİ ÇEKME
+	$data = $youtube->getVideoInformation("aDWfF6PSKWM"); // video id'si
+
+	// Json Çıktısı
+	var_dump($data);
 
 
