@@ -18,5 +18,5 @@ Bu class sayesinde **YoutubeAPİ v2** ile aramalarınızı kolayca yapabilirsini
 
 Nasıl Çalışır ?
 =============
+ (`$youtube = new YoutubeSearch();)
 
-$youtube = new YoutubeSearch();
