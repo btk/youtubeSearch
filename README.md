@@ -54,5 +54,10 @@ Sayfamıza `class.youtube.php`'ı dahil ettikten sonra sınıfımızı çalışt
 
 	// Json Çıktısı
 	var_dump($data);
+    
+##LİSANS
+Bu uygulama MIT lisansına sahiptir.. Geliştirilmeye ve ücretsiz kullanıma müsaittir.
+
+
 
 
