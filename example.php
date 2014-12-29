@@ -1,7 +1,7 @@
 <?php 
 
 // REQUİRE
-require 'class.youtube.php';
+require 'class.YoutubeSearch.php';
 
 // SINIF BAŞLATMA
 $youtube = new YoutubeSearch();
