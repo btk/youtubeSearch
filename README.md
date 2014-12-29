@@ -16,7 +16,7 @@
 Nasıl Çalışır ?
 =============
 
-Sayfamıza `class.youtube.php`'ı dahil ettikten sonra sınıfımızı çalıştıralım.
+Sayfamıza `class.youtubeSearch.php`'ı dahil ettikten sonra sınıfımızı çalıştıralım.
 
     // REQUİRE
 	require 'class.YoutubeSearch.php';
