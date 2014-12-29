@@ -26,18 +26,18 @@ Sayfamıza `class.youtube.php`'ı dahil ettikten sonra sınıfımızı çalışt
  Playlist Search
  
 
-	<?php 
-    	// REQUİRE
-		require 'lib/class.youtube.php';
-
+	
+    // REQUİRE
+	require 'lib/class.youtube.php';
+	
+    // SINIF BAŞLATMA
 	$youtube = new YoutubeSearch();
 
-
-	## Playlist Search
+	## PLAYLIST ARAMA
 	$data = $youtube->getPlaylistSearch("Keywords",10);
 
 	foreach ($data as $item) {
-		
+		// ÖRNEK GÖSTERİM
 		echo $i."-> ".$item->title."<br>";
 
 	}
