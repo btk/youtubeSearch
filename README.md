@@ -1,5 +1,5 @@
 ![](http://i.imgur.com/G0KQC7w.png)
-## youtubeSearch
+## Youtube Search
 =============
 
 Bu class sayesinde **YoutubeAPİ v2** ile aramalarınızı kolayca yapabilirsiniz..
