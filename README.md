@@ -42,5 +42,11 @@ Sayfamıza `class.youtube.php`'ı dahil ettikten sonra sınıfımızı çalışt
 		echo "-> ".$item->title."<br>";
 
 	}
+    
+    ## KANAL ARAMA
+	$data = $youtube->getChannelSearch("Michael Jackson",3);
+
+	// Json Çıktısı
+	var_dump($data);
 
 
