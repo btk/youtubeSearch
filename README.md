@@ -9,7 +9,7 @@
 2. Playlist
 3. Channel
 4. Single Video
-5. more..
+5. Güncellenicektir..
 
 
 
