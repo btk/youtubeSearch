@@ -18,5 +18,8 @@ Bu class sayesinde **YoutubeAPİ v2** ile aramalarınızı kolayca yapabilirsini
 
 Nasıl Çalışır ?
 =============
+
+Sayfamıza (<class.youtube.php>)
+
  (`$youtube = new YoutubeSearch();`)
 
