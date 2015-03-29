@@ -153,9 +153,7 @@ class YoutubeSearch
 			$this->url = $url;
 		}
 		if ($q){
-			$this->q = "/".$q;
-
-			$this->url .= $this->getEditQuery($q);
+			$this->url .= "/".$this->getEditQuery($q);
 		}
 		if($v){
 			$this->v = "?v=".$v;
